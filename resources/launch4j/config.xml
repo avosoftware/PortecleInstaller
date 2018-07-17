@@ -1,0 +1,40 @@
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <outfile>/portecle-installer/portecle/Portecle.exe</outfile>
+  <jar>portecle.jar</jar>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>http://java.com/download</downloadUrl>
+
+  <icon>/portecle-installer/portecle/icons/ico/portecle.ico</icon>
+
+  <classPath>
+    <mainClass>net.sf.portecle.FPortecle</mainClass>
+    <cp>portecle.jar</cp>
+    <cp>bcprov.jar</cp>
+  </classPath>
+
+  <jre>
+    <minVersion>1.7.0</minVersion>
+    <initialHeapSize>25</initialHeapSize>
+    <maxHeapSize>128</maxHeapSize>
+  </jre>
+
+  <splash>
+    <file>/portecle-installer/resources/launch4j/splash.bmp</file>
+    <waitForWindow>true</waitForWindow>
+  </splash>
+
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    
+    <fileDescription>The Portecle Project</fileDescription>
+    <copyright>Copyright © http://portecle.sourceforge.net/</copyright>
+    
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>Portecle</productName>
+    <internalName>Portecle</internalName>
+    <originalFilename>Portecle.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
