@@ -124,9 +124,9 @@ FunctionEnd
   LangString DESC_SectionFileAssociations ${LANG_ENGLISH} "Adding File Associations for JKS, KS, P12 and PFX key stores"
   
   LangString DESC_SectionApplication ${LANG_POLISH} "Pliki programu Portecle"
-  LangString DESC_SectionMenuShortcuts ${LANG_POLISH} "Dodaje skr贸ty w Menu Start"
-  LangString DESC_SectionDesktopShortcuts ${LANG_POLISH} "Dodaje skr贸t na Pulpicie"
-  LangString DESC_SectionFileAssociations ${LANG_POLISH} "Dodaje skojarzenia plik贸w dla magazyn贸w kluczy JKS, KS, P12 i PFX"
+  LangString DESC_SectionMenuShortcuts ${LANG_POLISH} "Dodaje skr髏y w Menu Start"
+  LangString DESC_SectionDesktopShortcuts ${LANG_POLISH} "Dodaje skr髏 na Pulpicie"
+  LangString DESC_SectionFileAssociations ${LANG_POLISH} "Dodaje skojarzenia plik體 dla magazyn體 kluczy JKS, KS, P12 i PFX"
   
   LangString SectionApplicationName ${LANG_ENGLISH} "Portecle (required)"
   LangString SectionMenuShortcutsName ${LANG_ENGLISH} "Start Menu Shortcuts"
@@ -134,9 +134,9 @@ FunctionEnd
   LangString SectionFileAssociationsName ${LANG_ENGLISH} "File Associations"
   
   LangString SectionApplicationName ${LANG_POLISH} "Portecle (wymagane)"
-  LangString SectionMenuShortcutsName ${LANG_POLISH} "Skr贸ty w Menu Start"
-  LangString SectionDesktopShortcutsName ${LANG_POLISH} "Skr贸t na Pulpicie"
-  LangString SectionFileAssociationsName ${LANG_POLISH} "Skojarzenia plik贸w"
+  LangString SectionMenuShortcutsName ${LANG_POLISH} "Skr髏y w Menu Start"
+  LangString SectionDesktopShortcutsName ${LANG_POLISH} "Skr髏 na Pulpicie"
+  LangString SectionFileAssociationsName ${LANG_POLISH} "Skojarzenia plik體"
   
   ;Assign language strings to sections
   !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
