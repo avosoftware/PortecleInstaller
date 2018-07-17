@@ -1,4 +1,5 @@
 # Portecle Installer
+[![Download Portecle Installer](https://img.shields.io/sourceforge/dw/portecleinstall.svg)](https://sourceforge.net/projects/portecleinstall/files/latest/download)
 
 This is simplified and unified approach to build script for the [Portecle](http://portecle.sourceforge.net/) Installer. To be able to build Installer from scratch you need to run local instance of [Docker](https://www.docker.com/).
 
